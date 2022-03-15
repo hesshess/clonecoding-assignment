@@ -21,8 +21,11 @@
     </nav>
 
     <header id="home">
-      <img src="./img/architect.jpg" alt="Architect" style=/>
-      <h1><span class="br">BR</span><span class="arc">Architects</span></h1>
+      <img src="./img/architect.jpg" alt="Architect" />
+
+      <h1>
+        <span><b>BR</b></span> <span>Architects</span>
+      </h1>
     </header>
 
     <content>
@@ -67,11 +70,12 @@
         </div>
       </section>
 
+      <hr />
+
       <!-- Menu Section -->
       <section id="about">
         <div class="title-box">
           <h3>About</h3>
-
           <p>
             Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do
             eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim
@@ -128,29 +132,74 @@
         </div>
       </section>
 
+      <hr />
+
       <!-- Contact Section -->
       <section id="contact">
-        <div class="title-box">
-          <h3>Contact</h3>
-          <p>Lets get in touch and talk about your next project.</p>
-        </div>
-        <form>
-          <input type="text" placeholder="Name" required name="Name" />
-          <input type="text" placeholder="Email" required name="Email" />
-          <input type="text" placeholder="Subject" required name="Subject" />
-          <input type="text" placeholder="Comment" required name="Comment" />
-          <button class="massage">SEND MESSAGE</button>
+        <h1>Contact</h1>
+        <br />
+        <p>
+          We offer full-service catering for any event, large or small. We
+          understand your needs and we will cater the food to satisfy the
+          biggerst criteria of them all, both look and taste. Do not hesitate to
+          contact us.
+        </p>
+        <p>
+          <b>Catering Service, 42nd Living St, 43043 New York, NY</b>
+        </p>
+        <p>
+          You can also contact us by phone 00553123-2323 or email
+          catering@catering.com, or you can send us a message here:
+        </p>
+        <form action="/action_page.php" target="_blank">
+          <p>
+            <input type="text" placeholder="Name" required name="Name" />
+          </p>
+          <p>
+            <input
+              type="number"
+              placeholder="How many people"
+              required
+              name="People"
+            />
+          </p>
+          <p>
+            <input
+              type="datetime-local"
+              placeholder="Date and time"
+              required
+              name="date"
+              value="2020-11-16T20:00"
+            />
+          </p>
+          <p>
+            <input
+              type="text"
+              placeholder="Message \ Special requirements"
+              required
+              name="Message"
+            />
+          </p>
+          <p>
+            <button type="submit">SEND MESSAGE</button>
+          </p>
         </form>
-      </section>
-      <section id="map">
-        <img src="./img/map.jpg" />
       </section>
 
       <!-- End page content -->
     </content>
     <!-- Footer -->
     <footer>
-      <p>Powered by CSS</p>
+      <p>
+        Powered by
+        <a
+          href="https://www.w3schools.com/w3css/default.asp"
+          title="W3.CSS"
+          target="_blank"
+          class="w3-hover-text-green"
+          >w3.css</a
+        >
+      </p>
     </footer>
   </body>
 </html>
