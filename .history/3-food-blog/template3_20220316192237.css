@@ -1,0 +1,30 @@
+@charset "utf-8";
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0;
+  width: 100vw;
+  font-family: 'Karma', sans-serif;
+}
+header {
+  width: 100vw;
+  display: flex;
+  justify-content: space-between;
+  padding: 0 20px;
+  position: fixed;
+  background-color: white;
+}
+.grid {
+  width: 90vw;
+  display: grid;
+  gap: 25px;
+  grid-template:
+    'box box box box' 1fr
+    'box box box box' 1fr / 1fr 1fr 1fr 1fr;
+  height: fit-content;
+}
+.box > img {
+  width: 100%;
+}
