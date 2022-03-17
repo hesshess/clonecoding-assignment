@@ -1,0 +1,23 @@
+@charset "UTF-8";
+body,
+h1,
+h2 {
+  font-family: 'Raleway', sans-serif;
+}
+body,
+html {
+  margin: 0;
+  height: 100%;
+}
+p {
+  line-height: 2;
+}
+.bgimg,
+.bgimg2 {
+  min-height: 100%;
+  background-position: center;
+  background-size: cover;
+}
+
+.bgimg2 {
+}

@@ -80,7 +80,8 @@ li {
   display: flex;
   padding: 10px;
 }
-
+.footer-box {
+}
 .list-text {
   padding-left: 20px;
 }
@@ -96,4 +97,8 @@ li {
   background-color: gray;
   color: white;
   margin: 5px 1px;
+}
+
+.black {
+  background-color: black;
 }

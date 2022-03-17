@@ -3,6 +3,7 @@
 * {
   box-sizing: border-box;
   list-style: none;
+  opacity: 0.1;
 }
 body {
   margin: 0;
@@ -80,7 +81,8 @@ li {
   display: flex;
   padding: 10px;
 }
-
+.footer-box {
+}
 .list-text {
   padding-left: 20px;
 }

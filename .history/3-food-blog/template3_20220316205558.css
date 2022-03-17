@@ -80,7 +80,8 @@ li {
   display: flex;
   padding: 10px;
 }
-
+.footer-box {
+}
 .list-text {
   padding-left: 20px;
 }
