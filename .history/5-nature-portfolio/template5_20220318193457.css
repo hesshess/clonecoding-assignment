@@ -1,0 +1,41 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-family: 'Raleway', sans-serif;
+}
+
+a {
+  text-decoration: none;
+}
+a:hover {
+  background-color: lightgray;
+  color: black;
+}
+body {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 3fr;
+  margin: 0;
+}
+nav {
+  width: 25%;
+  position: fixed;
+  height: 50%;
+  margin: 0;
+  padding: 20px;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.card > img {
+  width: 40%;
+  border-radius: 5px;
+}
