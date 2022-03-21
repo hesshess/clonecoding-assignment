@@ -214,7 +214,7 @@ button {
   background-color: black;
   color: white;
   font-family: inherit;
-  margin: 15px 0;
+  margin: 10px;
 }
 button:hover {
   background-color: gray;
@@ -230,7 +230,6 @@ footer {
   display: grid;
   gap: 25px;
   grid-template: 'box box box' 1fr/ 1fr 1fr 1fr;
-  color: white;
 }
 ul {
   padding-inline-start: 0;
@@ -240,6 +239,7 @@ ul {
 }
 .post {
   display: flex;
+  justify-content: center;
 }
 li {
   height: 100%;
@@ -253,13 +253,16 @@ li {
 .list-text {
   padding-left: 20px;
 }
+.border {
+  padding-bottom: 20px;
+}
 
 .tag {
   font-size: 13px;
   padding: 3px 5px;
   display: inline-block;
   background-color: gray;
-  color: black;
+  color: white;
   margin: 5px 1px;
 }
 .footer {

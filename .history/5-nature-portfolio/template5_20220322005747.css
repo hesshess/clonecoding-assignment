@@ -146,15 +146,13 @@ nav {
   display: grid;
   gap: 25px;
   grid-template: 'box box box' 1fr/ 1fr 1fr 1fr;
-  opacity: 0.7;
 }
 .price-box-sm {
-  height: 80vh;
   margin: auto;
   display: grid;
-  border-top: 1px solid lightgray;
-  border-left: 1px solid lightgray;
-  border-right: 1px solid lightgray;
+  border-top: 1px solid black;
+  border-left: 1px solid black;
+  border-right: 1px solid black;
   width: 100%;
   display: grid;
   grid-template:
@@ -168,6 +166,9 @@ nav {
   text-align: center;
   justify-content: center;
   align-items: center;
+}
+.price-box-sm:first-child {
+  padding: 30px 0;
 }
 .contact-box {
   width: 100%;
@@ -214,7 +215,6 @@ button {
   background-color: black;
   color: white;
   font-family: inherit;
-  margin: 15px 0;
 }
 button:hover {
   background-color: gray;
@@ -230,7 +230,6 @@ footer {
   display: grid;
   gap: 25px;
   grid-template: 'box box box' 1fr/ 1fr 1fr 1fr;
-  color: white;
 }
 ul {
   padding-inline-start: 0;
@@ -238,20 +237,21 @@ ul {
 .post > img {
   height: 50px;
 }
-.post {
-  display: flex;
-}
 li {
   height: 100%;
   display: flex;
   justify-content: center;
   align-items: center;
   text-align: center;
-  border-bottom: 1px solid lightgray;
+  border-bottom: 1px solid black;
 }
 
 .list-text {
   padding-left: 20px;
+}
+.border {
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
 }
 
 .tag {
@@ -259,7 +259,7 @@ li {
   padding: 3px 5px;
   display: inline-block;
   background-color: gray;
-  color: black;
+  color: white;
   margin: 5px 1px;
 }
 .footer {

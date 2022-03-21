@@ -214,7 +214,7 @@ button {
   background-color: black;
   color: white;
   font-family: inherit;
-  margin: 15px 0;
+  margin: 10px 0;
 }
 button:hover {
   background-color: gray;

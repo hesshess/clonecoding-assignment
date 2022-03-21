@@ -1,0 +1,145 @@
+body,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p {
+  font-family: 'Raleway', sans-serif;
+  margin: 0;
+}
+* {
+  box-sizing: border-box;
+}
+
+a {
+  text-decoration: none;
+  color: black;
+}
+a:hover {
+  background-color: lightgray;
+}
+body {
+  display: grid;
+  gap: 10px;
+  grid-template-columns: 1fr 3fr;
+  grid-template-rows: 3fr;
+}
+nav {
+  width: 25%;
+  position: fixed;
+  height: 70%;
+  margin: 0;
+  padding: 30px;
+  background-color: white;
+}
+.column {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+#mySidebar > img {
+  width: 50%;
+  border-radius: 5px;
+}
+.cv {
+  background-color: #f1f1f1;
+  padding: 20px;
+}
+.filter {
+  display: flex;
+  align-items: center;
+  padding: 20px 0;
+}
+.f1 {
+  margin-right: 20px;
+}
+.filter_btn {
+  padding: 10px 20px;
+  margin-right: 10px;
+  background-color: white;
+}
+
+.bar {
+  background-color: #cccccc;
+  height: 7px;
+  width: 100%;
+  margin-bottom: 20px;
+}
+.grid {
+  display: grid;
+  gap: 20px;
+  grid-template:
+    'box box box' 1fr
+    'box box box' 1fr / 1fr 1fr 1fr;
+}
+
+.box img {
+  width: 100%;
+}
+.box-txt {
+  background-color: white;
+  padding: 10px;
+}
+.pagination {
+  padding: 50px;
+  display: flex;
+  justify-content: center;
+}
+.page {
+  width: 5%;
+  padding: 20px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+#about {
+  display: flex;
+  justify-content: space-evenly;
+}
+.about-txt {
+  padding: 20px;
+}
+
+footer {
+  margin: auto;
+  width: 90%;
+  display: grid;
+  gap: 25px;
+  grid-template: 'box box box' 1fr/ 1fr 1fr 1fr;
+  padding-bottom: 50px;
+}
+li img {
+  height: 50px;
+}
+li {
+  display: flex;
+  padding: 10px;
+}
+
+.list-text {
+  padding-left: 20px;
+}
+.border {
+  padding-bottom: 20px;
+  border-bottom: 1px solid lightgray;
+}
+
+.tag {
+  font-size: 13px;
+  padding: 3px 5px;
+  display: inline-block;
+  background-color: gray;
+  color: white;
+  margin: 5px 1px;
+}
+.footer {
+  display: flex;
+  width: 100%;
+  height: 100px;
+  justify-content: center;
+  align-items: center;
+  background: black;
+  color: white;
+}
