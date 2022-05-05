@@ -1,6 +1,10 @@
 @import './colors.scss';
 @import './common.scss';
 
+body{
+  font-family: 'Nanum Gothic', sans-serif;
+}
+
 .my-scss {
   margin: auto; //.myScss라는 클래스에 대한 css 속성
   border: 5px dotted #d5d5d5;
